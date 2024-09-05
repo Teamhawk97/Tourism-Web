@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Tourism Paradise</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#characters">Characters</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Explore the World with Us</h1>
+            <p>Your adventure starts here</p>
+        </div>
+    </section>
+    <section class="features" id="explore">
+        <h2>Explore</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <img src="destination1.jpg" alt="Beautiful Beaches">
+                <h3>Beautiful Beaches</h3>
+                <p>Discover stunning beaches with crystal clear water.</p>
+            </div>
+            <div class="feature-item">
+                <img src="destination2.jpg" alt="Mountain Adventures">
+                <h3>Mountain Adventures</h3>
+                <p>Experience breathtaking views from the top of the world.</p>
+            </div>
+            <div class="feature-item">
+                <img src="destination3.jpg" alt="Cultural Experiences">
+                <h3>Cultural Experiences</h3>
+                <p>Immerse yourself in the local culture and traditions.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tourism Paradise. All rights reserved.</p>
+    </footer>
+</body>
+</html>
