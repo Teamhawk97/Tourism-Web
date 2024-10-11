@@ -1,0 +1,38 @@
+CREATE DATABASE tourism;
+// to create the database tourism
+
+USE tourism;
+// use the database tourism
+
+// to create booking table
+
+CREATE TABLE booking (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    phoneno VARCHAR(15),
+    destination VARCHAR(100),
+    arrival DATE
+);
+
+// to create contact table
+
+CREATE TABLE contact (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    phoneno VARCHAR(15),
+    subject VARCHAR(100),
+    message TEXT
+);
+
+// to create userinfo table
+
+CREATE TABLE userinfo (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(100) UNIQUE,
+    password VARCHAR(255),
+    username VARCHAR(100) UNIQUE
+);
+
+
