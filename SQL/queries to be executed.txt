@@ -12,7 +12,7 @@ CREATE TABLE booking (
     email VARCHAR(100),
     phoneno VARCHAR(15),
     destination VARCHAR(100),
-    arrival DATE
+    arrival VARCHAR(15)
 );
 
 // to create contact table
