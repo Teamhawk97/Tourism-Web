@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism website </title>
+     <!-- font google link -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- file normalize  -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!-- file font awesome  -->
+    <!--<link rel="stylesheet" href="./CSS/all.min.css">-->
+    <!--<link rel="stylesheet" href="./CSS/all.css">-->
+    <!-- file main style  -->
+    <link rel="stylesheet" href="./CSS/contact.css">
+</head>
+<body>
+    <!-- header section starts  -->
+    <header>
+        <div class="logo">Tourism Paradise</div>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="location.html">Locations</a>
+            <a href="book.html">Book</a>
+            <a href="contact.html">contact</a>
+            <a href="signup.html">Log Out</a>
+        </nav>
+
+        
+    </header>
+    <!-- header section ends  -->
+
+
+     <!-- contact section starts  -->
+     <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+            <form action="contact.php"method="POST">
+                <div class="inputBox">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="inputBox">
+                    <input type="number" name="phoneno" id="phoneno" placeholder="Phone Number" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+               <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+               <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+
+     </section>
+     <!-- contact section ends  -->
+
+     <!-- footer section starts  -->
+     <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>We specialize in creating unforgettable travel experiences tailored just for you. Our passionate team is dedicated to connecting you with the world’s most beautiful destinations, ensuring every journey is seamless and enriching. Join us and discover the extraordinary!</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">france</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html">home</a>
+                <a href="book.html">book</a>
+                <a href="location.html">location</a>
+                <a href="contact.html">contact</a>
+                <a href="signup.html">log out</a>
+            </div>
+        </div>
+     </section>
+     <!-- footer section ends -->
+
+    <!-- file js  -->
+    <script src="js/app.js"></script>
+</body>
+</html>

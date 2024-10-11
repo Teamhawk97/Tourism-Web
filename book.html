@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism website </title>
+     <!-- font google link -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- file normalize  -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!-- file font awesome  -->
+    <!--<link rel="stylesheet" href="./CSS/all.min.css">-->
+    <!--<link rel="stylesheet" href="./CSS/all.css">-->
+    <!-- file main style  -->
+    <link rel="stylesheet" href="./CSS/book.css">
+</head>
+<body>
+    <!-- header section starts  -->
+    <header>
+        <div class="logo">Tourism Paradise</div>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="location.html">Locations</a>
+            <a href="book.html">Book</a>
+            <a href="contact.html">contact</a>
+            <a href="signup.html">Log Out</a>
+        </nav>
+
+        
+    </header>
+    <!-- header section ends  -->
+
+    <!-- book section starts  -->
+<section class="book" id="book">
+
+    <h1 class="heading">
+       <span>b</span>
+       <span>o</span>
+       <span>o</span>
+       <span>k</span>
+       <span class="space"></span>
+       <span>n</span>
+       <span>o</span>
+       <span>w</span></h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="book.php" method="POST">
+        <div class="inputBox">
+            <h3>Name</h3>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="inputBox">
+            <h3>Email</h3>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="inputBox">
+            <h3>Phone No</h3>
+            <input type="number" id="phoneno" name="phoneno" required>
+        </div>
+        <div class="inputBox">
+            <h3>Destination</h3>
+            <input type="text" id="destination" name="destination" required>
+        </div>
+        <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date" id="arrival" name="arrival" required>
+        </div>
+        <input type="submit" class="btn" value="book now">
+    </form>
+   </div>
+</section>
+<!-- book section ends  -->
+
+   <!-- footer section starts  -->
+   <section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>We specialize in creating unforgettable travel experiences tailored just for you. Our passionate team is dedicated to connecting you with the world’s most beautiful destinations, ensuring every journey is seamless and enriching. Join us and discover the extraordinary!</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html">home</a>
+            <a href="book.html">book</a>
+            <a href="location.html">location</a>
+            <a href="contact.html">contact</a>
+            <a href="signup.html">log out</a>
+        </div>
+    </div>
+ </section>
+ <!-- footer section ends -->
+
+    <!-- file js  -->
+    <script src="js/app.js"></script>
+</body>
+</html>
